@@ -1,0 +1,227 @@
+.about-section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5em;
+    gap:0;
+    background-color: #f8f9fa;
+}
+
+.image-container {
+    position: relative;
+    width: 50%;
+    max-width: 600px;
+    padding: 0em 0 0em 5em;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.experience-badge {
+    position: absolute;
+    top: -60px;
+    left: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.389);
+    text-align: center;
+}
+
+.experience-badge span {
+    font-size: 2em;
+    font-weight: bold;
+    color: #0b3a5b;
+}
+
+.experience-badge p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.text-container {
+    width: 50%;
+    padding-left: 2em;
+}
+
+.text-container h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.text-container p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        padding: 1em;
+    }
+    .image-container,
+    .text-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 8em 1.5em 0em 1.5em;
+    }
+    .text-container {
+        padding: 1.5em;
+    }
+
+    .experience-badge {
+        top: 30px;
+        left: 10px;
+       
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.389);
+        text-align: center;
+    }
+}
+
+
+/*------------ Contact Part ------------*/
+.section-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin: 20px 0 0 0;
+  }
+
+  .contact-container {
+    width: 100%;
+    padding:0;
+    background-color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* Header Section */
+  .header {
+    background-color: #003366;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .header h2 {
+    margin: 0;
+  }
+
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .header a:hover {
+    text-decoration: underline;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+    .header h2 {
+        font-size: 20px;
+    }
+    .header a{
+        padding-top: 5px;
+    }
+  }
+
+
+
+
+/*----------INFO Section----------*/
+  .info-portion{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:  #fff;
+      padding: 40px 0 60px 0;
+  }
+  .info-section {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* Card Styling */
+  .info-card {
+    flex: 1;
+    min-width: 280px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .info-card::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #003366;
+  }
+
+  .info-card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .info-card h4 {
+    font-size: 18px;
+    color: #003366;
+    margin: 10px 0 5px;
+  }
+
+  .info-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 0.5;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .info-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
