@@ -308,3 +308,88 @@ body {
 /* footer */
 
 
+/* phone-icon */
+.phone-float {
+    position: fixed;
+    bottom: 160px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 50%;
+}
+
+.phone-float i {
+    color: #ffffff; /* Icon color */
+    font-size: 24px; /* Icon size */
+    background-color: #1672bd;
+    border-radius: 50%;
+    border:none;
+    padding: 12px;
+}
+
+.phone-float:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* phone-icon */
+
+/* wp-icon */
+.whatsapp-float {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 50%;
+    background-color: #ffffff00;
+}
+
+.whatsapp-float i {
+    color: #08f05d; /* Icon color */
+    font-size: 50px; /* Icon size */
+    border-radius: 50%;
+    border:none;
+    background-color: #bf191900;
+}
+
+.whatsapp-float:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    background-color: #bf191900;
+}
+
+/* wp-icon */
+
+
+
+
+/* move to top */
+/* Move to Top Button Styling */
+.move-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    background-color:#002e53;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    cursor: pointer;
+    display: none; /* Hidden by default, will appear when scrolled */
+  }
+  
+  .move-to-top a {
+    color: white;
+  
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .move-to-top:hover {
+    background-color: #0c256b; /* Darker green on hover */
+  }
+  
+  /* Show the button when scrolled */
+  .show {
+    display: block;
+  }
+  
+/* move to top */
+

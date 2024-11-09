@@ -24,3 +24,30 @@ function changeImage() {
 }
 
 setInterval(changeImage, 3000); // Change image every 3 seconds
+
+
+
+
+// move to top
+// When the user scrolls down 100px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var moveToTopBtn = document.getElementById("moveToTopBtn");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    moveToTopBtn.classList.add("show");
+  } else {
+    moveToTopBtn.classList.remove("show");
+  }
+}
+
+// Smooth scroll back to the top
+document.getElementById("moveToTopBtn").addEventListener("click", function(e) {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+// move to top
