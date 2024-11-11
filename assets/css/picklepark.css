@@ -206,6 +206,12 @@
     color: #555;
     line-height: 0.5;
   }
+  .info-card a{
+    font-size: 14px;
+    color: #555;
+    line-height: 0.5;
+    text-decoration: none;
+  }
 
   /* Responsive Styles */
   @media (max-width: 768px) {

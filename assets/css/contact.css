@@ -215,11 +215,16 @@
     color: #003366;
     margin: 10px 0 5px;
   }
-
-  .info-card p {
+  .info-card p{
     font-size: 14px;
     color: #555;
     line-height: 0.5;
+  }
+  .info-card a{
+    font-size: 14px;
+    color: #555;
+    line-height: 0.5;
+    text-decoration: none;
   }
 
   /* Responsive Styles */

@@ -262,6 +262,11 @@ body {
     margin-right: 8px;
 }
 
+.footer-contact li a{
+    color: #fff !important;
+    text-decoration: none;
+}
+
 /* Social Media Links Styling */
 .footer-social {
     margin-top: 10px;
