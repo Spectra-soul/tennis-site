@@ -339,15 +339,15 @@ body {
     right: 20px;
     z-index: 1000;
     border-radius: 50%;
-    background-color: #ffffff00;
+    background-color: #3dd073;
 }
 
 .whatsapp-float i {
-    color: #08f05d; /* Icon color */
-    font-size: 50px; /* Icon size */
+    color:  #fff;
+    font-size: 30px;
     border-radius: 50%;
     border:none;
-    background-color: #bf191900;
+    padding: 10px 11px;
 }
 
 .whatsapp-float:hover {
