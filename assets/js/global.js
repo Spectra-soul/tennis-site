@@ -14,7 +14,7 @@ hamburger.addEventListener('click', () => {
 
 
 // Image Carousel
-let images = ["./assets/img/banner-1.jpg", "./assets/img/banner-2.jpg", "./assets/img/banner-3.jpg", "./assets/img/banner-4.jpg"]; // Add paths to your images here
+let images = ["./assets/img/banner-1.jpg", "./assets/img/banner-2.jpg", "./assets/img/banner-4.jpg",  "./assets/img/banner-5.jpg", "./assets/img/banner-3.jpg"]; // Add paths to your images here
 let currentIndex = 0;
 const carouselImage = document.querySelector('.carousel-image');
 
