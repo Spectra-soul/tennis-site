@@ -11,7 +11,6 @@ Welcome to the official repository for **LPG Sports Academy**, a premier sports 
 - **HTML**: For structuring the website.
 - **CSS**: For custom, responsive design.
 - **JavaScript**: For interactive features and animations.
-- **PHP Framework**: For admin side panel.
 
 ## Contributing
 We welcome contributions! If you'd like to contribute to this project, feel free to fork the repository, make improvements, and submit a pull request.
